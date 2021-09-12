@@ -1,0 +1,15 @@
+.efecto-img:hover {
+  filter: opacity(50%);
+  transition: 400ms;
+}
+
+#logo-footer {
+  height: 200px;
+}
+
+@media all and (max-width: 576px) {
+  .img-responsive {
+    height: 250px;
+    object-fit: cover;
+  }
+}
